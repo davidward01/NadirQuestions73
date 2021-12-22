@@ -1,0 +1,153 @@
+B24 interview questions
+========================
+1. What are the phases / steps of SDLC
+Requirement gathering
+Business analysis / Defining Requirements
+Design product architecture
+Develop
+Testing
+Deployment/Maintenance
+
+2. What is testing?
+Main goal: create bug free enviornment and reach customer expectations.
+Comparing actual result vs expected
+ 
+3. What is manual testing?
+The process of conducting our tests without the use of automation. We do this mostly when tests are not repeatable or if they require user input.  We can also do manual testing when speed is required.  Captcha/2FA also requires manual testing.
+
+4. What is automated testing?
+The process of testing using scripts to be able to run significantly more tests in less time (more efficient). 
+
+5. What is static testing?
+Testing the requirements in documentation.
+
+6. What is verification?
+Static testing, we are making sure that the code is to spec of the client per documentation.
+
+7. What is validation?
+Dynamic testing, requires code execution. Checking if the business needs of the customer are met
+
+8. What is dynamic testing?
+The actual testing of the application
+
+9. What is unit testing and who does that? 
+Unit testing is the process of testing a single functionality of the application
+
+10. what is functional testing?
+Testing the functionalities of the application.  We are testing to validate every function of the application
+
+11. what is unit testing and who does that? 
+12. What is smoke test?
+We test the major/critical functionalities of our application.  We run this every morning to make sure that our app is up and running.
+
+13. Who runs the smoke test?
+Depending on the structure of the company, the test team creates and runs the smoke test.  We run it automatically by scheduling it to run every morning with Jenkins.
+
+14. How long does your smoke test take to run?
+We have x number of scenarios (15-25) and it only takes about 15 minutes to run
+
+15. How many scenarios does your smoke test have? 
+15-25
+
+16. Where do we run smoke test?  
+We create a job on Jenkins tool to pull the tests from Github and schedule them to run
+
+17. What is white box testing?
+Testing the code with good knowledge and understanding of code (Code is visible).
+-unit integration testing is an example.  Conducted by Devs
+
+18. What is black box testing?
+Testing the app without knowledge of the code.
+-examples: UAT/Beta testing/System testing.
+
+20. How many environments you have in your project
+In my project, we have 4 = Dev, Test, Staging/pre-production, Production
+
+21. What is regression testing?
+Checking that when new code is pushed to our app, it doesn't break/create bugs in our existing functionalities.
+
+22. How Many scenarios you have in you regression?
+We have about 700 tests in our regression. 70-80% automated
+
+23. How long does your regression take place?
+About 4
+
+24. Is your smoke suite dynamic? tell me more
+Yes, our smoke suite is dynamic.  We are able to add or remove test cases as our functionalities change.
+
+25. Who decides which scenarios go to smoke which go to regression? 
+1. Test team decides which tests go to smoke and regression.
+2. Test team creates the scenarios and ultimately our QA Lead, Jason, decides which ones go to the Suite.
+
+
+26. Where do you run regression?
+We run our regression in the staging/pre-production enviornment.
+
+27. how many scenarios automated in your regression?
+80% automated, 20% manual.
+
+28. Is your all smoke suite automated?
+Our smoke suite is entirely automated.
+ 
+29. Tell me 3 things you like about Agile?
+1. Communication with customer and ability to accept requirements/direction changes quickly
+2. Ease of team communication and collaboration
+3. Shorter development time / gets to market quicker. (Quick delivery of results)
+
+30. What do you find challenging about Agile 
+1. Lack of documentation provides a challenge
+2. All team members need to have a strong knowledge of Agile concepts to cohesively work together.
+3. Rapid changes can be hard to predict and we need to be able to adapt to this.
+
+31. What do you like about agile?
+I like agile because it allows easy team collaboration, and because of the flexibility of Agile, we are able to deliver greater customer satisfaction.
+
+32. What challenges can you have while working in agile environment?
+Potentially, we could run into an issue if a team member leaves unexpectedly during a project.  The lack of documentation could cause us to lose time while we are trying to understand their frameworks etc...
+
+Final product might be unclear due to changing requirements.  It is sometimes hard to gauge what the end result is supposed to look like.
+
+33. Who accepts user stories?
+Product owner accepts the User Stories.  The dev team (devs and QA) completes the US, the PO either accepts it or rejects it. (DOR)
+
+34. Describe me your team? 
+
+35. What do you like about being part of scrum team?
+36. What is your team size? 
+37. What is product backlog?
+38. What is sprint backlog?
+39. How long is you sprint? 
+40. Tell me about sprint grooming
+41. Tell me about sprint planning 
+42. Tell me about daily stand up
+43. Tell me about retro meeting 
+44. How often do you have releases?
+45. What is definition of ready? 
+46. What is definition of done?
+47. What is Epic
+48. What is user story
+49. What is AC 
+50. What is increment?
+51. What is testing? 
+52. Tell me about your project
+53. What you do while developer developing the code
+54. How many environments you have in your project
+55. What do you do when you find a defect? 
+56. What is defect priority? and who decides that?
+57. What is defect severity? and who decides that?
+58. What project management tool do you use? 
+59. What questions you have for us?
+60. Why are you applying to our company? 
+61. Describe your testing process during the sprint
+62. What motivates you?
+63. What demotivates you? 
+64. Where do you see yourself in 6 months? - short term 
+65. Where do you see yourself in 5 years?  - long term 
+66. Three things you good at?
+67. When to start testing?
+68. Why to automate? 
+69. When to automate?
+70. How to achieve better test coverage?  
+71. Tell me about your project 
+72. Your day to day activities
+73. My responsibilities
