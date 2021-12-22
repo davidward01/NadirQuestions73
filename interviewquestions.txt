@@ -31,10 +31,10 @@ Dynamic testing, requires code execution. Checking if the business needs of the 
 The actual testing of the application
 
 9. What is unit testing and who does that? 
-Unit testing is the process of testing a single functionality of the application
+Unit testing, is testing small piece of the code and verifying it's correctness.
 
 10. what is functional testing?
-Testing the functionalities of the application.  We are testing to validate every function of the application
+testing application itself to make sure that every functionality meets the requirements of the client.
 
 11. what is unit testing and who does that? 
 12. What is smoke test?
@@ -54,23 +54,25 @@ We create a job on Jenkins tool to pull the tests from Github and schedule them 
 
 17. What is white box testing?
 Testing the code with good knowledge and understanding of code (Code is visible).
--unit integration testing is an example.  Conducted by Devs
+-unit and integration testing is done under white box testing. Conducted by Devs
 
 18. What is black box testing?
 Testing the app without knowledge of the code.
--examples: UAT/Beta testing/System testing.
+-examples: UAT and System testing.
 
 20. How many environments you have in your project
 In my project, we have 4 = Dev, Test, Staging/pre-production, Production
 
 21. What is regression testing?
 Checking that when new code is pushed to our app, it doesn't break/create bugs in our existing functionalities.
+or
+when something new has been added, removed , updated or cancelled we run regression to make sure the application still performs after those changes.
 
 22. How Many scenarios you have in you regression?
 We have about 700 tests in our regression. 70-80% automated
 
 23. How long does your regression take place?
-About 4
+About 4 hours for automated scenarios and about 5 days or a week for manual scenarios.
 
 24. Is your smoke suite dynamic? tell me more
 Yes, our smoke suite is dynamic.  We are able to add or remove test cases as our functionalities change.
@@ -84,7 +86,7 @@ Yes, our smoke suite is dynamic.  We are able to add or remove test cases as our
 We run our regression in the staging/pre-production enviornment.
 
 27. how many scenarios automated in your regression?
-80% automated, 20% manual.
+80% automated.
 
 28. Is your all smoke suite automated?
 Our smoke suite is entirely automated.
