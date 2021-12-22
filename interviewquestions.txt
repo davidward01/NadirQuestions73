@@ -108,7 +108,7 @@ Potentially, we could run into an issue if a team member leaves unexpectedly dur
 Final product might be unclear due to changing requirements.  It is sometimes hard to gauge what the end result is supposed to look like.
 
 33. Who accepts user stories?
-Product owner accepts the User Stories.  The dev team (devs and QA) completes the US, the PO either accepts it or rejects it. (DOR)
+Product owner accepts the User Stories.  Based on Definition of Done, The dev team (devs and QA) completes the US, the PO either accepts it or rejects it.
 
 34. Describe me your team? 
 
