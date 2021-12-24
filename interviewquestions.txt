@@ -112,29 +112,97 @@ Product owner accepts the User Stories.  Based on Definition of Done, The dev te
 
 34. Describe me your team? 
 
+I work in a scrum setup.  In my scrum we have 3 devs, 2 testers, 1 SM, and our PO. 
+
+// Project - 4 teams on the project
+// Team - 3 devs, 2 testers
+// 700ish regression tests.  80% Automation - 1 regression for whole project
+// 25 test Smoke Suite 100% automated. - 1 smoke for whole project
+
+
 35. What do you like about being part of scrum team?
+I like being part of a scrum because of the ease of collaboration and communication with my teammates.  Because of great communication capabilities, we are able to overcome obstacles easily with the support of our team.
+
 36. What is your team size? 
+In my scrum we have 3 devs, 2 testers, 1 SM, and our PO. 
+
 37. What is product backlog?
+Product backlog is the log maintained by the PO consisting of the user stories.  PO writes the US and AC's/
+
 38. What is sprint backlog?
+At sprint planning meeting, SM selects User Stories to move to the Sprint Backlog.  They are used and Maintained by the Dev team and SM during the sprint.  Sprint backlog contains tasks that need to be completed, as well as the total 
+
 39. How long is you sprint? 
+our sprint is two weeks long
+
 40. Tell me about sprint grooming
+Sprint Grooming is when the PO defines and explains the User Stories to the Dev Team.  In my project, this meeting is conducted after the Sprint Planning meeting to make sure all US/AC are clearly defined.
+
 41. Tell me about sprint planning 
+In the Sprint Planning meeting, Capacity and Velocity is defined.  We discuss what can be done this sprint //
+
 42. Tell me about daily stand up
+The daily stand up meeting is a 15 minute at the beginning of the day where the scrum team gets together and discusses what we did yesterday, what we are doing today, and if there are any obstacles we are facing.  This is a mandatory meeting conducted daily and is important for team communication and collaboration.
+
 43. Tell me about retro meeting 
+Discuss what went well, what didnt go well
+
 44. How often do you have releases?
+Our company has an official release about once every three months.
+
 45. What is definition of ready? 
+DOR is the checklist that we use to ensure we are ready for the sprint to start.  It is an agreement between the PO and dev team regarding if a User Story is ready to go into the backlog.
+
 46. What is definition of done?
+DOD is conducted at the Demo meeting.  This is a checklist to ensure that a User Story is finished and ready for delivery.  (All tests are passing, test cases are documented, all + and - scenarios are covered).
+
 47. What is Epic
+An Epic is a User Story that is too large to complete in a single iteration/sprint.  We break Epics down into smaller User Stories to complete within the sprints.
+
 48. What is user story
+
+
 49. What is AC 
+
+
 50. What is increment?
+Incrementing is the sum of all Product Backlog items completed during the sprint, and what stage of the product that puts us in.
+
 51. What is testing? 
+idk
+
 52. Tell me about your project
+
+Right now I am working for NextBase as a Software Development Engineer in 
+Test. It has been 3 years I am in this position. There are several 
+projects under the company, and the application I work is NextBase CRM - 
+Customer Relationship Management. It is a web based application for 
+customers to organize the collaboration between team members, as well as 
+to manage the documentation flow, reporting and task assignments. 
+Moreover, the application has very advance customer service and support 
+capabilities. It is an internal application, where different users with 
+different roles and permissions can create end to end work-flows, which 
+has been unique experience for me to test. Also the application enables 
+users to share files, create calendar activities and generate reports 
+related to the work-flows. The application has several modules like Tasks, 
+chat and call, work-flows, etc, the one me and my team are working 
+currently is Time and Reports. The module is the combination of Absence, 
+Work time, reports and meetings features. Application utilizes Orcale DB. 
+We use POM Cucumber Framework for automation  testing. My main 
+responsibility is maintaining the framework, regression suite and smoke 
+test as well as in sprint automation testing.
+
 53. What you do while developer developing the code
+
 54. How many environments you have in your project
+
 55. What do you do when you find a defect? 
+
 56. What is defect priority? and who decides that?
+
 57. What is defect severity? and who decides that?
+
+
 58. What project management tool do you use? 
 59. What questions you have for us?
 60. Why are you applying to our company? 
